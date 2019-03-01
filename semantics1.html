@@ -24,9 +24,9 @@ span,=It has no meaning ,The span tag is like the div tag.
      
  the alt attribute = to give the immage a description if for some reason the person who vieuws the page cannot see the immage it still shows a description.
 */
-     body{max-width:90%;margin: auto;background-image: linear-gradient(#C1BD80,#3F3721)}
-     .good{}
-     .bad{}
+     body{max-width:90%;margin: auto;background-image:url(https://images.unsplash.com/photo-1513553404607-988bf2703777?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80);background-repeat: no-repeat;background-size: cover;}
+     .good{color:greenyellow;}
+     .bad{color:red;}
     p{font-family:serif;font-size:18px;letter-spacing:3px;color:darkred;}
      h1 {font-family: monospace;}
      a {font-size:25px;color:burlywood;}
@@ -34,7 +34,11 @@ span,=It has no meaning ,The span tag is like the div tag.
      a:visited{color: forestgreen;font-weight: bold;}
      .quote{max-width:50%;margin-left:auto;margin-right:auto;font-size:160%;background-color: lightgrey;border-left:3px;border-top:none;border-style:dashed;border-spacing:30px;border-collapse:30px;padding-top:80px;padding-bottom:80px;}
      header>h1{text-decoration: underline; text-decoration-style:double;background-color:yellow;}
-     
+     blockquote{color:aqua;}
+     .villagers{border-left:3px;}
+     .farmer{border-left;}
+     table{background-color:whitesmoke;opacity:0.5;}
+     .good, .bad {font-style:oblique;}
 </style>
     </head>
     <body>
@@ -49,17 +53,17 @@ span,=It has no meaning ,The span tag is like the div tag.
                 <h1>Preamble</h1>
             <br>
             <lu>
-            <li>- read this once</li>
-            <li>- then read it again</li>
-            <li>- then tell it to your best friend</li>
+                <li>- read this once</li>
+                <li>- then read it again</li>
+                <li>- then tell it to your best friend</li>
             </lu>
         </header>
     <br>
     <h2>The story</h2>
     <br>
-    <p class="p">Once upon a time there was a Chinese farmer whose horse ran away. That evening, all of his neighbors came around to commiserate. They said, “We are so sorry to hear your horse has run away. This is most unfortunate.” The farmer said, <strong>“Maybe.”</strong> The next day the horse came back bringing seven wild horses with it, and in the evening everybody came back and said, “Oh, isn’t that lucky. What a great turn of events. You now have eight horses!” The farmer<a href="https://www.google.com/search?safe=active&ei=1_l3XKbvJsaxgwfpuofYDQ&q=The+farmer&oq=The+farmer&gs_l=psy-ab.3..0i203l7j0j0i203l2.100481.100481..101155...0.0..0.62.62.1......0....2j1..gws-wiz.......0i71.EUS8elI8ons">https://www.google.com/farmer</a> again said, “Maybe.”</p> 
+        <p class="p">Once upon a time there was a Chinese farmer whose horse ran away. That evening, all of his neighbors came around to commiserate. They said, <tag class="villagers">“We are so sorry to hear your horse has run away. This is most unfortunate.”<tag><tag class="farmer">The farmer said, <strong>“Maybe.”</strong></tag> The next day the horse came back bringing seven wild horses with it, and in the evening everybody came back and said, <tag class="villagers">“Oh, isn’t that lucky. What a great turn of events. You now have eight horses!”</tag><tag class="farmer"> The farmer<a href="https://www.google.com/search?safe=active&ei=1_l3XKbvJsaxgwfpuofYDQ&q=The+farmer&oq=The+farmer&gs_l=psy-ab.3..0i203l7j0j0i203l2.100481.100481..101155...0.0..0.62.62.1......0....2j1..gws-wiz.......0i71.EUS8elI8ons">https://www.google.com/farmer</a> again said, “Maybe.”</tag></p> 
     <br>
-        <p>The following day his son tried to break one of the horses, and while riding it, he was thrown and broke his leg. The neighbors then said, “Oh dear, that’s too bad,” and the farmer responded, <strong>“Maybe.”</strong> The next day the conscription officers came around to conscript people into the army, and they rejected his son because he had a broken leg. Again all the neighbors came around and said, <blockquote>“Isn’t that great!”</blockquote> Again, he said, </p><strong>“Maybe.”</strong>
+            <p>The following day his son tried to break one of the horses, and while riding it, he was thrown and broke his leg. The neighbors then said,<tag class="villagers"><blockquote>“Oh dear</blockquote>, that’s too bad,”</tag> and the farmer responded,<tag class="farmer"> <strong>“Maybe.”</strong></tag> The next day the conscription officers came around to conscript people into the army, and they rejected his son because he had a broken leg. Again all the neighbors came around and said,<tag class="villagers"> <blockquote>“Isn’t that great!”</blockquote></tag> Again, he said, </p><tag class="farmer"><strong>“Maybe.”</strong></tag>
     <br>
     <p>The whole process of nature is an integrated process of immense complexity, and it’s really impossible to tell whether anything that happens in it is good or bad — because you never know what will be the consequence of the misfortune; or, you never know what will be the consequences of good fortune.<a href="https://www.google.com/">https://www.google.com/</a></p>
     <br>
@@ -71,7 +75,8 @@ span,=It has no meaning ,The span tag is like the div tag.
     <br>
     <p>Here is this dialog in the form of a table</p>
    <table>
-       <tr><th>Event</th><th><p class="good">Good</p> or <p class="bad">Bad</p> ?</th></tr> 
+       <tr><th>Event</th><th><p class="good">Good<img src="https://raw.githubusercontent.com/becodeorg/GNT-Yu-1.10/master/01-The-fields/04-html-css/01-html-css-basics/images/bien.png?token=AtklJsfGHsr3zCbkhPTNEjCnj66M9-YRks5cgnwLwA%3D%3D"></p> or<img src="https://raw.githubusercontent.com/becodeorg/GNT-Yu-1.10/master/01-The-fields/04-html-css/01-html-css-basics/images/chat.png?token=AtklJoCrxUbvrqzGGlCmuBvdf5hSve6oks5cgnt1wA%3D%3D">
+        <p class="bad">Bad <img src="https://raw.githubusercontent.com/becodeorg/GNT-Yu-1.10/master/01-The-fields/04-html-css/01-html-css-basics/images/mal.png?token=AtklJtgIY5xb6Au5cP17Ul2gOfQq2Ncbks5cgnxzwA%3D%3D" id="duim"></p> ?</th></tr> 
        <tr><td>Lose a horse</td><td><strong>Maybe</strong></td></tr>
        <tr><td>Win more horses</td><td><strong>Maybe</strong></td></tr>
        <tr><td>Son injury</td><td><strong>Maybe</strong></td></tr>
