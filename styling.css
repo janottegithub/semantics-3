@@ -1,0 +1,114 @@
+/*
+My comments/ explanations
+h1,=first header
+h2,=second header
+blockquote,=quotes
+q,=quote
+img,=immage
+hr,=horizontal rule
+figure= figure tag specifies self-contained content, like illustrations, diagrams, photos
+caption,=tag defines a table caption
+table,= table
+th,= table header
+tr,=table row
+td,=table data
+ul,=unordered list
+ol,=ordered list
+li,=list item
+div,=division
+span,=It has no meaning ,The span tag is like the div tag.
+     
+ the alt attribute = to give the immage a description if for some reason the person who vieuws the page cannot see the immage it still shows a description.
+*/
+     body{
+         max-width:90%;
+         margin: auto;
+         background-image:url(https://images.unsplash.com/photo-1513553404607-988bf2703777?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80);
+         background-repeat: no-repeat;
+         background-size: cover;
+     }
+     .good{
+         color:greenyellow;
+     }
+     .bad{
+         color:red;
+     }
+    p{
+        font-family:serif;
+        font-size:18px;
+        letter-spacing:3px;
+        color:darkred;
+     }
+     h1 {
+         font-family: monospace;
+     }
+     a {
+         font-size:25px;
+         color:burlywood;
+     }
+     a:hover{
+         color:darkgoldenrod;
+     }
+     a:visited{
+         color: forestgreen;
+         font-weight: bold;
+     }
+     .quote{
+         max-width:50%;
+         margin-left:auto;
+         margin-right:auto;
+         font-size:160%;
+         background-color: lightgrey;
+         border-left:3px;
+         border-top:none;
+         border-style:dashed;
+         border-spacing:30px;
+         border-collapse:30px;
+         padding-top:80px;
+         padding-bottom:80px;
+     }
+     header>h1{
+         text-decoration: underline;
+         text-decoration-style:double;
+         background-color:yellow;
+     }
+     blockquote{
+         color:aqua;
+     }
+     .villagers{
+         border-left:3px;
+     }
+     .farmer{
+         border-left;
+     }
+     table{
+         background-color:whitesmoke;
+         opacity:0.5;
+     }
+     .good, .bad {
+         font-style:oblique;
+     }
+     #second{
+         font-weight:bold;
+     }
+     #alan{
+         float:right;
+         margin:35px;
+     }
+     .notification{
+  float:right;
+  display: block;
+  background:#FFFFDD;
+  border:3px solid #DDDDCC;
+  width:250px;
+  font-weight:bold;
+  color: #333300;
+  position:static;
+  border-top:  10px;
+}
+#p3{
+    font-family: 'Srisakdi', cursive;
+     }
+     #wats{
+         margin:auto;
+     }
